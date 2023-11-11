@@ -9,21 +9,21 @@ const Hero = () => {
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1 }}
+                    transition={{ duration: 0.5 }}
                     className='bg-emerald-700 uppercase text-white text-2xl px-3 py-1 w-max rounded-md max-md:mx-auto max-md:text-xl max-sm:text-lg'>
                     Tanjung Kadedeuh Residence
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1, delay: 0.2 }}
+                    transition={{ duration: 0.5, delay: 0.2 }}
                     className='text-6xl mt-5 font-extrabold text-emerald-950 max-md:text-4xl max-sm:text-3xl'>
                     Hunian Komersil Strategis, Cicilan Mulai 1,5 Juta/Bulan
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1, delay: 0.4 }}
+                    transition={{ duration: 0.5, delay: 0.4 }}
                     className='mt-5 text-xl text-zinc-700 max-md:text-lg max-sm:text-md mb-5'>
                     Ingin memiliki hunian komersil yang strategis di Cimahi?
                     Tanjung Kadedeuh Residence jawabannya! Hanya 5 menit menuju
@@ -34,7 +34,7 @@ const Hero = () => {
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1, delay: 0.5 }}
+                    transition={{ duration: 0.5, delay: 0.5 }}
                     className='bg-green-600 hover:bg-green-500 text-white cursor-pointer w-max px-5 py-2 rounded-md text-lg max-md:mx-auto'>
                     Kontak Kami
                 </motion.div>
@@ -42,7 +42,7 @@ const Hero = () => {
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1, delay: 0.6 }}
+                transition={{ duration: 0.5, delay: 0.6 }}
                 className=''>
                 <Image
                     src='/images/tkr/hero-img.jpeg'

@@ -8,14 +8,14 @@ const Maps = () => {
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1 }}
+                    transition={{ duration: 0.5 }}
                     className='bg-emerald-600 text-white uppercase font-extrabold w-max px-5 py-1 text-3xl my-3 max-md:text-2xl max-sm:text-xl mx-auto my-10'>
                     Lokasi Strategis
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1, delay: 0.4 }}
+                    transition={{ duration: 0.5, delay: 0.4 }}
                     className='grid grid-cols-3 gap-5 my-10 max-md:grid-cols-2 max-sm:grid-cols-1'>
                     <div className='border border-zinc-200 p-3 rounded-md flex items-center gap-3'>
                         <div className='text-6xl'>🏪</div>

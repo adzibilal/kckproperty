@@ -10,7 +10,7 @@ const Values = () => {
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 1.5, delay: 0.2 }}
+                        transition={{ duration: 0.5, delay: 0.2 }}
                         className='max-md:text-center'>
                         <div className='text-2xl max-md:text-xl'>Dengan harga terjangkau</div>
                         <div className='bg-emerald-600 text-white uppercase font-extrabold w-max px-5 py-1 text-3xl my-3 max-md:mx-auto max-md:text-2xl'>
@@ -25,7 +25,7 @@ const Values = () => {
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 2, delay: 0.4 }}
+                        transition={{ duration: 0.5, delay: 0.4 }}
                         className='bg-white shadow-md p-3 rounded-lg'>
                         <Image
                             src='/images/tkr/illustrasi1.jpeg'
@@ -40,7 +40,7 @@ const Values = () => {
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 2, delay: 0.4 }}
+                        transition={{ duration: 0.5, delay: 0.4 }}
                         className='bg-white shadow-md p-3 rounded-lg'>
                         <Image
                             src='/images/tkr/illustrasi1.jpeg'
@@ -55,49 +55,49 @@ const Values = () => {
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1 }}
+                            transition={{ duration: 0.5 }}
                             className='bg-emerald-600 text-white uppercase font-extrabold w-max px-5 py-1 text-3xl my-3 max-md:text-2xl max-sm:text-xl max-sm:mx-auto'>
                             Apa yang Anda dapatkan?
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1 , delay: 0.2}}
+                            transition={{ duration: 0.5 , delay: 0.2}}
                             className='bg-white p-3 shadow-md rounded-md mb-3 text-xl max-md:text-lg'>
                             ✅ Sudah ramai penghuni
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1 , delay: 0.4}}
+                            transition={{ duration: 0.5 , delay: 0.4}}
                             className='bg-white p-3 shadow-md rounded-md mb-3 text-xl max-md:text-lg'>
                             ✅ Keamanan 24 jam sudah berjalan
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1 , delay: 0.6}}
+                            transition={{ duration: 0.5 , delay: 0.6}}
                             className='bg-white p-3 shadow-md rounded-md mb-3 text-xl max-md:text-lg'>
                             ✅ Masjid sudah aktif
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1, delay: 0.8 }}
+                            transition={{ duration: 0.5, delay: 0.8 }}
                             className='bg-white p-3 shadow-md rounded-md mb-3 text-xl max-md:text-lg'>
                             ✅ Sudah terbentuk RT dan RW
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1, delay: 1 }}
+                            transition={{ duration: 0.5, delay: 1 }}
                             className='bg-white p-3 shadow-md rounded-md mb-3 text-xl max-md:text-lg'>
                             ✅ Air bersih aktif 24 jam
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1, delay: 1.2 }}
+                            transition={{ duration: 0.5, delay: 1.2 }}
                             className='bg-white p-3 shadow-md rounded-md mb-3 text-xl max-md:text-lg'>
                             ✅ One Gate System
                         </motion.div>
