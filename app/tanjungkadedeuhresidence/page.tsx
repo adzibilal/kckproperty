@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Hero from './_components/hero'
 import Values from './_components/values'
+import Maps from './_components/maps'
 
 export const metadata: Metadata = {
     title: 'Tanjung Kade Deuh Residence by KCKPROPERTY',
@@ -12,6 +13,7 @@ const TKRPage = () => {
         <div className=''>
             <Hero />
             <Values />
+            <Maps/>
         </div>
     )
 }

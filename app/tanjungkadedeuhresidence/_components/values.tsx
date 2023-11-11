@@ -94,6 +94,13 @@ const Values = () => {
                             className='bg-white p-3 shadow-md rounded-md mb-3 text-xl max-md:text-lg'>
                             ✅ Air bersih aktif 24 jam
                         </motion.div>
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 1, delay: 1.2 }}
+                            className='bg-white p-3 shadow-md rounded-md mb-3 text-xl max-md:text-lg'>
+                            ✅ One Gate System
+                        </motion.div>
                     </div>
                 </div>
             </div>
