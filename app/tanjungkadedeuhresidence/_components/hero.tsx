@@ -2,8 +2,13 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { FaWhatsapp } from 'react-icons/fa';
+import * as pixel from '@/lib/fbpixel'
 
 const Hero = () => {
+    const handleCta = () => {
+        pixel.btnWhatsApp()
+        window.open('https://wa.me/6281212121212', '_blank')
+    }
     return (
         <div className='max-con h-screen grid grid-cols-[2fr_1fr] items-center px-3 gap-10 max-md:flex max-md:flex-col-reverse max-md:h-max max-md:my-20'>
             <div className='max-md:text-center'>
@@ -36,6 +41,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
+                    onClick={handleCta}
                     className='bg-green-600 hover:bg-green-500 text-white cursor-pointer w-max px-5 py-2 rounded-md text-lg max-md:mx-auto flex items-center gap-2'>
                     <FaWhatsapp/>
                     Kontak Kami
