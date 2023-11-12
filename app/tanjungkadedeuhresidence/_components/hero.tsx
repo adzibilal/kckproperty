@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Hero = () => {
     return (
@@ -25,7 +26,7 @@ const Hero = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.4 }}
                     className='mt-5 text-xl text-zinc-700 max-md:text-lg max-sm:text-md mb-5'>
-                    Ingin memiliki hunian komersil yang strategis di Cimahi?
+                    Ingin memiliki hunian komersil yang strategis?
                     Tanjung Kadedeuh Residence jawabannya! Hanya 5 menit menuju
                     pintu tol Pamulihan Tanjungsari, menjadikannya akses yang
                     mudah dan cepat ke berbagai tempat.
@@ -35,7 +36,8 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
-                    className='bg-green-600 hover:bg-green-500 text-white cursor-pointer w-max px-5 py-2 rounded-md text-lg max-md:mx-auto'>
+                    className='bg-green-600 hover:bg-green-500 text-white cursor-pointer w-max px-5 py-2 rounded-md text-lg max-md:mx-auto flex items-center gap-2'>
+                    <FaWhatsapp/>
                     Kontak Kami
                 </motion.div>
             </div>

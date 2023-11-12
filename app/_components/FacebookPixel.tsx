@@ -13,6 +13,10 @@ const FacebookPixel = () => {
         if (!loaded) return
 
         pixel.pageview()
+
+        const fbkey = process.env.NEXT_PUBLIC_FB_PIXEL_ID
+
+        console.error(fbkey, 'fbkey')
     }, [pathname, loaded])
 
     return (
