@@ -1,13 +1,22 @@
 'use client'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp } from 'react-icons/fa'
 import * as pixel from '@/lib/fbpixel'
 
 const Hero = () => {
     const handleCta = () => {
         pixel.btnWhatsApp()
-        window.open('https://wa.me/6281212121212', '_blank')
+
+        const text = `Halo, saya ingin mengetahui lebih lanjut tentang Tanjung Kadedeuh Residence. 👋`
+
+        // Membuat URL WhatsApp dengan parameter yang dinamis
+        const waURL = `https://api.whatsapp.com/send?phone=6281234422245&text=${encodeURIComponent(
+            text
+        )}`
+
+        // Membuka jendela baru dengan URL WhatsApp
+        window.open(waURL, '_blank')
     }
     return (
         <div className='max-con h-screen grid grid-cols-[2fr_1fr] items-center px-3 gap-10 max-md:flex max-md:flex-col-reverse max-md:h-max max-md:my-20'>
@@ -31,10 +40,10 @@ const Hero = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.4 }}
                     className='mt-5 text-xl text-zinc-700 max-md:text-lg max-sm:text-md mb-5'>
-                    Ingin memiliki hunian komersil yang strategis?
-                    Tanjung Kadedeuh Residence jawabannya! Hanya 5 menit menuju
-                    pintu tol Pamulihan Tanjungsari, menjadikannya akses yang
-                    mudah dan cepat ke berbagai tempat.
+                    Ingin memiliki hunian komersil yang strategis? Tanjung
+                    Kadedeuh Residence jawabannya! Hanya 5 menit menuju pintu
+                    tol Pamulihan Tanjungsari, menjadikannya akses yang mudah
+                    dan cepat ke berbagai tempat.
                 </motion.div>
 
                 <motion.div
@@ -43,7 +52,7 @@ const Hero = () => {
                     transition={{ duration: 0.5, delay: 0.5 }}
                     onClick={handleCta}
                     className='bg-green-600 hover:bg-green-500 text-white cursor-pointer w-max px-5 py-2 rounded-md text-lg max-md:mx-auto flex items-center gap-2'>
-                    <FaWhatsapp/>
+                    <FaWhatsapp />
                     Kontak Kami
                 </motion.div>
             </div>
@@ -54,9 +63,9 @@ const Hero = () => {
                 className=''>
                 <Image
                     src='/images/tkr/hero-img.jpeg'
-                    width={500}
-                    height={500}
-                    className='aspect-[4/5] max-md:aspect-video rounded-md shadow-sm bg-center object-cover max-md:mx-auto'
+                    width={400}
+                    height={400}
+                    className='aspect-[4/5] max-md:aspect-video rounded-md shadow-sm bg-center object-cover max-md:mx-auto w-full'
                     alt='Tanjung Kadedeuh Residence by KCKPROPERTY'
                 />
             </motion.div>

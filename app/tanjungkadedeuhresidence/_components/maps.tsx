@@ -9,7 +9,7 @@ const Maps = () => {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
-                    className='bg-emerald-600 text-white uppercase font-extrabold w-max px-5 py-1 text-3xl my-3 max-md:text-2xl max-sm:text-xl mx-auto my-10'>
+                    className='bg-emerald-600 text-white uppercase font-extrabold w-max px-5 py-1 text-3xl max-md:text-2xl max-sm:text-xl mx-auto my-10'>
                     Lokasi Strategis
                 </motion.div>
                 <motion.div

@@ -14,7 +14,7 @@ const Values = () => {
                         className='max-md:text-center'>
                         <div className='text-2xl max-md:text-xl'>Dengan harga terjangkau</div>
                         <div className='bg-emerald-600 text-white uppercase font-extrabold w-max px-5 py-1 text-3xl my-3 max-md:mx-auto max-md:text-2xl'>
-                            mulai dari Rp 480 juta,
+                            mulai dari Rp 320 juta,
                         </div>
                         <div className='text-xl max-md:text-lg'>
                             Anda sudah bisa memiliki rumah impian di Tanjung
@@ -29,10 +29,10 @@ const Values = () => {
                         className='bg-white shadow-md p-3 rounded-lg'>
                         <Image
                             src='/images/tkr/illustrasi1.jpeg'
-                            width={1000}
+                            width={600}
                             height={500}
                             alt=''
-                            className='aspect-video rounded-md object-cover'
+                            className='aspect-video rounded-md object-cover w-full'
                         />
                     </motion.div>
                 </div>
@@ -44,10 +44,10 @@ const Values = () => {
                         className='bg-white shadow-md p-3 rounded-lg'>
                         <Image
                             src='/images/tkr/illustrasi1.jpeg'
-                            width={1000}
+                            width={600}
                             height={500}
                             alt=''
-                            className='aspect-video rounded-md object-cover'
+                            className='aspect-video rounded-md object-cover w-full'
                         />
                     </motion.div>
 
