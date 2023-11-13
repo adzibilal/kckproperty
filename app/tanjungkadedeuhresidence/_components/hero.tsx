@@ -8,7 +8,7 @@ const Hero = () => {
     const handleCta = () => {
         pixel.btnWhatsApp()
 
-        const text = `Karya Cipta Property dari Google Ads, ingin mengetahui lebih lanjut tentang Tanjung Kadeudeuh Residence`
+        const text = `Halo, saya tau Karya Cipta Property dari Google Ads, ingin mengetahui lebih lanjut tentang Tanjung Kadeudeuh Residence`
 
         // Membuat URL WhatsApp dengan parameter yang dinamis
         const waURL = `https://api.whatsapp.com/send?phone=6281234422245&text=${encodeURIComponent(
