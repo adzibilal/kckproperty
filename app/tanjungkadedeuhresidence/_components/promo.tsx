@@ -26,23 +26,26 @@ const Promo = () => {
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5 }}
-                        className='bg-white px-3 py-1 w-max -skew-x-6 font-bold mb-3 max-md:mx-auto'>
-                        PROMO 9 UNIT PERTAMA
+                        transition={{ duration: 0.5 }}>
+                        <div className='bg-white px-3 py-1 w-max -skew-x-6 font-bold mb-3 max-md:mx-auto'>
+                            PROMO 9 UNIT PERTAMA
+                        </div>
                     </motion.div>
                     <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.2 }}
-                        className='bg-yellow-500 text-white px-3 py-1 w-max -skew-x-6 font-extrabold mb-3 text-6xl max-xl:text-5xl max-lg:text-4xl max-md:mx-auto max-sm:text-3xl'>
-                        CUKUP 2,5 JT ALL IN
+                        transition={{ duration: 0.5, delay: 0.2 }}>
+                        <div className='bg-yellow-500 text-white px-3 py-1 w-max -skew-x-6 font-extrabold mb-3 text-6xl max-xl:text-5xl max-lg:text-4xl max-md:mx-auto max-sm:text-3xl'>
+                            CUKUP 2,5 JT ALL IN
+                        </div>
                     </motion.h1>
                     <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.4 }}
-                        className='bg-yellow-500 text-white px-3 py-1 w-max -skew-x-6 font-extrabold mb-3 text-6xl max-xl:text-5xl max-lg:text-4xl max-md:mx-auto max-sm:text-3xl'>
-                        SAMPAI TERIMA KUNCI
+                        transition={{ duration: 0.5, delay: 0.4 }}>
+                        <div className='bg-yellow-500 text-white px-3 py-1 w-max -skew-x-6 font-extrabold mb-3 text-6xl max-xl:text-5xl max-lg:text-4xl max-md:mx-auto max-sm:text-3xl'>
+                            SAMPAI TERIMA KUNCI
+                        </div>
                     </motion.h1>
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
