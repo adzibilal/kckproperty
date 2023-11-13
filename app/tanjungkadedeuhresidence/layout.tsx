@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
     title: 'Tanjung Kadedeuh Residence by KCKPROPERTY',
-    description: 'Hunian Komersil Strategis, Cicilan Mulai 1,5 Juta/Bulan',
+    description: 'Hunian Komersil Strategis, Cicilan Mulai 1,5 Juta/Bulan, Ingin memiliki hunian komersil yang strategis? Tanjung Kadedeuh Residence jawabannya! Hanya 5 menit menuju pintu tol Pamulihan Tanjungsari, menjadikannya akses yang mudah dan cepat ke berbagai tempat.',
     icons: '/images/tkr/favicon.png',
     openGraph: {
         type: 'website',
@@ -13,8 +13,8 @@ export const metadata: Metadata = {
         images: [
             {
                 url: '/images/tkr/meta-img.png',
-                width: 800,
-                height: 600,
+                width: 1200,
+                height: 630,
                 alt: 'Tanjung Kadedeuh Residence by KCKPROPERTY'
             }
         ]
