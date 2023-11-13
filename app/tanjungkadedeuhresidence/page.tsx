@@ -5,6 +5,7 @@ import Maps from './_components/maps'
 import Image from 'next/image'
 import Promo from './_components/promo'
 import Navbar from './_components/navbar'
+import Testimonial from './_components/testimonial'
 
 export const metadata: Metadata = {
     title: 'Tanjung Kade Deuh Residence by KCKPROPERTY',
@@ -18,6 +19,7 @@ const TKRPage = () => {
             <Hero />
             <Values />
             <Promo />
+            <Testimonial />
             <Maps />
             <div className='max-con !py-5 flex justify-between items-center max-sm:flex-col max-sm:justify-center gap-5'>
                 <Image
