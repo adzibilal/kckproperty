@@ -12,7 +12,7 @@ export const metadata: Metadata = {
         siteName: 'Tanjung Kadedeuh Residence by KCKPROPERTY',
         images: [
             {
-                url: '/images/tkr/hero-img.jpeg',
+                url: '/images/tkr/meta-img.png',
                 width: 800,
                 height: 600,
                 alt: 'Tanjung Kadedeuh Residence by KCKPROPERTY'
