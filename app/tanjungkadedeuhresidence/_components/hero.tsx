@@ -51,7 +51,7 @@ const Hero = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
                     onClick={handleCta}
-                    className='bg-green-600 hover:bg-green-500 text-white cursor-pointer w-max px-5 py-2 rounded-md text-lg max-md:mx-auto flex items-center gap-2'>
+                    className='bg-orange-600 hover:bg-orange-500 text-white cursor-pointer w-max px-5 py-2 rounded-md text-2xl max-md:mx-auto flex items-center gap-2'>
                     <FaWhatsapp />
                     Kontak Kami
                 </motion.div>
